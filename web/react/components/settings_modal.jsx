@@ -41,7 +41,7 @@ module.exports = React.createClass({
                                 updateTab={this.updateTab}
                             />
                         </div>
-                        <div className="settings-content">
+                        <div className="settings-content minimize-settings">
                             <UserSettings
                                 activeTab={this.state.active_tab}
                                 activeSection={this.state.active_section}
